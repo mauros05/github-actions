@@ -1,8 +1,8 @@
 name: Another Workflow Tets
 on: 
-  push: 
-    branches:
-      - master
+  issues:
+    types:
+      -opened
 jobs:
   show-info:
     runs-on: ubuntu-latest
