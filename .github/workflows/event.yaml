@@ -6,7 +6,7 @@ on:
       - main
       - test
 jobs: 
-  show-info:
+  show-other-info:
     runs-on: ubuntu-latest
     steps:
       - name: Info
