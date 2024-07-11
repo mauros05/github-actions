@@ -1,0 +1,12 @@
+name: Issues Workflos
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  show-info-from-issues-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info from issue workflow
+        run: |
+          echo "This is a workflow for all branches"
