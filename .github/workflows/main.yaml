@@ -1,8 +1,7 @@
 name: Another Workflow Tets
 on: 
-  issues:
-    types:
-      -opened
+  schedule:
+    - cron: "*/5 * * * *" #This job will run every 5 minutes
 jobs:
   show-info:
     runs-on: ubuntu-latest
